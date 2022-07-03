@@ -1,0 +1,221 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  color: white;  
+  clip-path: polygon(0 0 , 100% 0 , 100% 100% , 80% 90% , 0 100%);
+}
+img{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+
+}
+.navbar{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+  margin-top: 10px;
+}
+.mainnav{
+  float: right;
+  margin-top: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.mainnav li {
+  margin-left: 40px;
+  display: inline-block;
+  list-style: none;
+}
+
+.mainnav li a {
+  padding: 3px; 
+  color: rgba(233, 237, 243, 0.918);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%; 
+  font-weight: 100px;
+}
+.mainnav li a:hover{
+  border-bottom: 3px solid rgba(224, 228, 233, 0.897);
+  transition: all 0.2s ease;
+  
+  
+}
+
+.main{
+  margin-left: 10%; 
+ 
+}
+
+.text{
+    margin-top: 15%;
+    max-width: 500px;
+    font-size: 140%;
+    padding-top: 8%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    float: right;
+    margin-right: 300px;
+    margin-bottom: 500px;
+    
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+
+
+}
+
+button {
+background-color: transparent;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: 2px solid white;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.4;
+background-color: white;
+color: black;
+
+
+}
+.container1 {
+padding: 20px;
+width: 350px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.color{
+  color: rgb(14, 96, 151);
+  cursor: pointer;
+}
+
+.footer{
+  margin-top: 15%;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+h4{
+  float: left;
+  font-size: 20px;
+}
+.i {
+  float: right;  
+}
+.icon{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.icon1{
+  color:rgb(194, 27, 152) ;
+  padding-left: 30px;
+}
+.icon2{
+  color:rgb(36, 25, 185) ;
+}
+.icon3{
+  color:#00acee ;
+}
+.icon4{
+  color:rgb(69, 161, 189) ;
+}
+section .sec-head h3{
+ float: right;
+ margin-right: 300px;
+ margin-top: -50px;
+ font-size: 30px;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+}
+section .sec-head h3 span{
+ color: rgb(14, 96, 151) ;
+}
+
+
+<div class="container">
+        <header>
+            <nav>
+                <div class="navbar ">
+                    <img src="/images/logo1.png" class="logo" style="height: 100px; width: auto; cursor: pointer;"
+                        alt="Ilearn">
+
+                    <ul class="mainnav">
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/main.html" target="_blank">CONTENT</a></li>
+                        <li><a href="/contact.html" target="_blank">CONTACT</a></li>
+                        <li><a href="/sign.html" target="_blank">sign-in</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="form">
+                <form class="container1">
+
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <a href="#"><button style="letter-spacing: 2px;" type="submit">Login</button></a>
+                </form>
+            </div>
+            <div class="text">
+                <h3>WELCOME TO <span class="color">ILEARN</span><br> QUALITY STUDY MATERIAL <br>FOR COMPUTER SCIENCE
+                    STUDENTS.</h3>
+                <hr style="height: 3px; border-color: rgb(14, 96, 151); border: 5px solid  rgb(14, 96, 151) ;
+                border-radius: 5px;">
+            </div>
+
+        </div>
+        <footer class="footer">
+            <h4>Contact us:</h4>
+            <div class="icon">
+                <a href="#" class="icon1"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" class="icon2"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="icon3"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" class="icon4"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+    <section>
+        <div class="sec-head">
+            <h3><span>our</span> courses</h3>
+        </div>
+        <div class="container2">
+            <div class="card">
+                <img src="/images/cpp.jpg" alt="">
+                <h3>cpp courses</h3>
+                <p>lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#"> START</a>
+
+            </div>
+        </div>
+    </section>
